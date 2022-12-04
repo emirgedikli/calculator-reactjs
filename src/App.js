@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-function App() {
+const App = () => {
   const [calc, setCalc] = useState("");
   const [result, setResult] = useState("");
 
